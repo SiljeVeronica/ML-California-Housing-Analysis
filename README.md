@@ -1,38 +1,31 @@
 # California Housing: Linear vs Logistic Regression
 
-This project analyzes the California Housing dataset using different machine learning models to predict and classify median house values.
+This project explores the California Housing dataset using machine learning models to predict and classify median house values.
 
 ## Overview
-The goal of this analysis is to:
-- Predict median house value using **Linear Regression**
-- Classify homes as *High Value* or *Low Value* using **Logistic Regression** and **Random Forest**
-- Compare model performance, interpret feature importance, and visualize key relationships.
-
-## Models Used
-- Linear Regression  
-- Logistic Regression  
-- Random Forest Classifier  
+The analysis compares:
+- **Linear Regression** — predicting continuous house values  
+- **Logistic Regression** and **Random Forest** — classifying homes as *High* or *Low* value  
 
 ## Methods
-- Data exploration and visualization (correlation heatmaps, scatter plots, map-style plots)  
+- Data exploration with visualizations (correlation heatmap, scatter plot, map plot)  
 - Feature scaling and model training  
-- Evaluation using metrics such as **MAE**, **RMSE**, **R²**, **Accuracy**, **Precision**, **Recall**, and **ROC-AUC**
+- Model evaluation with **MAE**, **RMSE**, **R²**, **Accuracy**, **Precision**, **Recall**, and **ROC-AUC**
 
-## Key Insights
-- **Median Income (MedInc)** is the strongest predictor of house value.  
-- **Location** (Latitude and Longitude) also has a major influence — coastal areas tend to have higher house prices.  
-- The **Random Forest** model achieved the highest overall accuracy.
+## Key Findings
+- **Median Income (MedInc)** is the strongest factor affecting house value.  
+- **Location** (latitude & longitude) also has a clear impact — coastal areas are most expensive.  
+- **Random Forest** achieved the highest accuracy and recall.
 
-## Tools and Libraries
-- Python  
-- scikit-learn  
-- pandas  
-- matplotlib  
-- seaborn  
-
-## File
-- `California_Housing_Analysis.ipynb` — Jupyter Notebook with full code, explanations, and visualizations.
+## Tools
+Python • scikit-learn • pandas • matplotlib • seaborn
 
 ---
 
-*Created as part of a Machine Learning assignment exploring regression and classification models.*
+*Jupyter Notebook: `California_Housing_Analysis.ipynb`*
+
+## How to Run
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/ml-california-housing.git
+   cd ml-california-housing
