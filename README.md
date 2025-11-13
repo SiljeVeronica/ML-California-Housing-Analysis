@@ -35,4 +35,4 @@ The goal of this analysis is to:
 
 ---
 
-⭐ *Created as part of a Machine Learning assignment exploring regression and classification models.*
+*Created as part of a Machine Learning assignment exploring regression and classification models.*
