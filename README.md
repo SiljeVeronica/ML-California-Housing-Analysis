@@ -27,5 +27,5 @@ Python • scikit-learn • pandas • matplotlib • seaborn
 ## How to Run
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/<your-username>/ml-california-housing.git
+   git clone https://github.com/SiljeVeronica/ml-california-housing.git
    cd ml-california-housing
